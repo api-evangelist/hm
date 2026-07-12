@@ -14,10 +14,14 @@ modified: '2026-05-16'
 specificationVersion: '0.19'
 apis: []
 common:
+  - type: DomainSecurity
+    url: security/hm-domain-security.yml
   - type: Website
     url: https://www2.hm.com/
   - type: CorporateSite
     url: https://hmgroup.com/
+  - url: https://hmgroup.com/feed/
+    type: Blog
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
